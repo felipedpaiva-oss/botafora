@@ -308,6 +308,7 @@ document.getElementById("ordem").addEventListener("change", render);
 function render() {
   const ordem = document.getElementById("ordem").value;
   const peso = it => (it.status === "vendido" ? 2 : it.status === "reservado" ? 1 : 0);
+  const semFoto = it => ((it.midia || []).length ? 0 : 1);
   const cmp = {
     "preco-desc": (a, b) => (b.preco ?? -1) - (a.preco ?? -1),
     "preco-asc": (a, b) => (a.preco ?? 1e9) - (b.preco ?? 1e9),
@@ -315,7 +316,7 @@ function render() {
     "nome": (a, b) => a.nome.localeCompare(b.nome, "pt-BR"),
   }[ordem];
   const lista = ITENS.filter(it => filtro === "todos" || (filtro === "agora" ? livre(it) : it.disponivelEm === filtro))
-    .sort((a, b) => peso(a) - peso(b) || cmp(a, b));
+    .sort((a, b) => peso(a) - peso(b) || semFoto(a) - semFoto(b) || cmp(a, b));
   const disp = lista.filter(i => (i.status || "disponivel") === "disponivel").length;
   document.getElementById("count").textContent = `${lista.length} ${lista.length === 1 ? "item" : "itens"} · ${disp} disponíveis para reserva`;
   const grid = document.getElementById("grid");
