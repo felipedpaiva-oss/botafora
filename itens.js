@@ -37,6 +37,7 @@ window.ITENS = [
     obs: "Box baú com pistões a gás: a tampa levanta fácil e embaixo tem bastante espaço para guardar coisas.\nColchão Nature de espuma, bem conservado: sem manchas e sem partes afundadas." },
   { id: "lava-louca", nome: "Lava-louças Brastemp 8 serviços inox (BLF08BS)", preco: 1090, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-loucas-brastemp-8-servicos-inox-blf08bs/p/MLB19628776",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"].map(f => "midia/lava-louca/" + f),
+    obs: "Tem um arranhão na porta, que aparece nas fotos.",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-loucas-brastemp-blf08bs-manual.pdf" }] },
   { id: "cadeiras-4x", nome: "Cadeiras (4 unidades)", preco: 750, disponivelEm: "2026-11-11", loja: "https://m.magazineluiza.com.br/conjunto-com-4-cadeiras-de-madeira-macica-estofada-drop-cinamomo-c-linho-off-white-cobre-homedock/p/ch28hkb334/mo/ms4j/" },
   { id: "carrinho-kinderkraft", nome: "Carrinho Kinderkraft Vesto", preco: 690, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0919L93QC" },
