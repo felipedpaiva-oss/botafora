@@ -59,7 +59,7 @@ window.ITENS = [
     midia: ["01.jpg", "02.mp4", "03.jpg"].map(f => "midia/microondas/" + f),
     obs: "Em ótimo estado, sem defeitos. Voltagem 127 V.\n20 litros, 620 W, 10 níveis de potência. Porta e painel espelhados, acabamento inox.\nTecla Uso Fácil (aquecer e descongelar), receitas pré-programadas (arroz, vegetais, massas, peixe, pipoca, bebida), tecla +30 segundos, relógio, timer e trava de segurança.\nMedidas: 45,5 cm (L) × 26,4 cm (A) × 35,3 cm (P). Peso: 10,5 kg.\nTemos a NF." },
   { id: "cadeirinha-cosco", nome: "Cadeirinha Cosco Kids Progress, 0 a 36 kg, preta", preco: 245, disponivelEm: null, loja: "https://www.amazon.com.br/dp/B08YMXTLX2" },
-  { id: "poltronas-2x", nome: "Poltronas (2 unidades)", preco: 195, disponivelEm: "2026-11-11", loja: "https://m.magazineluiza.com.br/kit-2-cadeiras-para-mesa-de-jantar-flor-balaqui-decor-jl-decor/p/ac0d6gj714/mo/mcoz/" },
+  { id: "poltronas-2x", status: "vendido", nome: "Poltronas (2 unidades)", preco: 195, disponivelEm: "2026-11-11", loja: "https://m.magazineluiza.com.br/kit-2-cadeiras-para-mesa-de-jantar-flor-balaqui-decor-jl-decor/p/ac0d6gj714/mo/mcoz/" },
   { id: "comoda", nome: "Cômoda do quarto", preco: 145, disponivelEm: null, loja: "https://m.magazineluiza.com.br/comoda-infantil-retro-duda-branco-acetinado-betula-carolina-carolina-baby/p/cb6397ha38/mo/cpbb/" },
   { id: "airfryer", nome: "Fritadeira Elétrica Air Fryer Mondial Family AF-30 3,5L Preta 127V", preco: 95, disponivelEm: "2026-12-18", loja: "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-mondial-family-af-30-35l-preta-220v/p/ee2660bh84/ep/efso/",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg"].map(f => "midia/airfryer/" + f),
