@@ -54,7 +54,7 @@ window.ITENS = [
     obs: "Em ótimo estado, sem defeitos aparentes.\nTampo off white com vidro e base castanho cinamomo. Para 6 lugares.\nMedidas: 135 cm de diâmetro × 80 cm de altura.\nTemos a NF." },
   { id: "pratos-xicaras", nome: "Conjunto de pratos e xícaras", preco: 445, disponivelEm: "2026-12-18", loja: "https://m.magazineluiza.com.br/jogo-de-jantar-30-pecas-ryo-maresia-oxford/p/ca9828abc3/ud/apja/" },
   { id: "cama-infantil", nome: "Cama infantil", preco: 345, disponivelEm: null, loja: "https://m.magazineluiza.com.br/cama-infantil-bicama-branco-completa-moveis/p/eg6j25h74c/mo/cams/" },
-  { id: "microondas", nome: "Micro-ondas Consul 20 litros espelhado (CM020BF)", preco: 295, disponivelEm: "2026-12-18", loja: "https://produto.mercadolivre.com.br/MLB-4392506584-micro-ondas-consul-20-litros-cm020bf-funco-descongelar-e-_JM",
+  { id: "microondas", status: "reservado", nome: "Micro-ondas Consul 20 litros espelhado (CM020BF)", preco: 295, disponivelEm: "2026-12-18", loja: "https://produto.mercadolivre.com.br/MLB-4392506584-micro-ondas-consul-20-litros-cm020bf-funco-descongelar-e-_JM",
     midia: ["01.jpg", "02.mp4", "03.jpg"].map(f => "midia/microondas/" + f),
     obs: "Em ótimo estado, sem defeitos. Voltagem 127 V.\n20 litros, 620 W, 10 níveis de potência. Porta e painel espelhados, acabamento inox.\nTecla Uso Fácil (aquecer e descongelar), receitas pré-programadas (arroz, vegetais, massas, peixe, pipoca, bebida), tecla +30 segundos, relógio, timer e trava de segurança.\nMedidas: 45,5 cm (L) × 26,4 cm (A) × 35,3 cm (P). Peso: 10,5 kg.\nTemos a NF." },
   { id: "cadeirinha-cosco", nome: "Cadeirinha Cosco Kids Progress, 0 a 36 kg, preta", preco: 245, disponivelEm: null, loja: "https://www.amazon.com.br/dp/B08YMXTLX2" },
