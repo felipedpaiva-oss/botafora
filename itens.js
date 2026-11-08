@@ -29,7 +29,7 @@ const fotos = (id, n, ext = "jpg") =>
 
 window.ITENS = [
   { id: "lava-roupa", nome: "Lava e seca Philco Eco Inverter PLS11C (lava 11 kg / seca 7 kg)", preco: 1590, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-e-seca-philco-eco-inverter-11kg-titanio-pls11c-127v/up/MLBU2788848558",
-    midia: fotos("lava-roupa", 9),
+    midia: [...fotos("lava-roupa", 9), "midia/lava-roupa/10.mp4"],
     obs: "Em ótimo estado. Nenhum defeito.\nAinda temos o manual em PDF, a NF e os parafusos de transporte.\nMedidas: 59,5 cm (L) × 62,5 cm (P) × 85 cm (A).",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-e-seca-philco-manual.pdf" }] },
   { id: "carrinho-doona", nome: "Carrinho Doona", preco: 1390, disponivelEm: null },
