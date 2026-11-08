@@ -40,7 +40,6 @@ window.ITENS = [
     obs: "Tem um arranhão na porta, que aparece nas fotos.\nTemos o manual em PDF e a NF.\nMedidas: 51 cm (L) × 63 cm (P) × 63 a 70 cm (A, conforme a regulagem dos pés).",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-loucas-brastemp-blf08bs-manual.pdf" }] },
   { id: "cadeiras-4x", nome: "Conjunto com 4 Cadeiras de Madeira Maciça Estofada Drop - Cinamomo c/ Linho Off White - Cobre - Homedock", obs: "Cadeiras em bom estado, completamente higienizadas no início de novembro/26. Temos NF do produto.", preco: 750, disponivelEm: "2026-11-11", loja: "https://m.magazineluiza.com.br/conjunto-com-4-cadeiras-de-madeira-macica-estofada-drop-cinamomo-c-linho-off-white-cobre-homedock/p/ch28hkb334/mo/ms4j/" },
-  { id: "carrinho-kinderkraft", nome: "Carrinho Kinderkraft Vesto", preco: 690, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0919L93QC" },
   { id: "carrinho-cabine", nome: "Carrinho dobrável / de cabine", preco: 690, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0CVN4SWX6" },
   { id: "sofa", nome: "Sofá Retrátil e Reclinável Verona 2,00 m Suede Velut Tabaco - King House", preco: 690, disponivelEm: null, loja: "https://m.magazineluiza.com.br/sofa-retratil-reclinavel-verona-200m-suede-velut-tabaco-c-molas-no-assento-king-house/p/jafja78g8k/mo/msof/",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"].map(f => "midia/sofa/" + f),
@@ -74,5 +73,5 @@ window.ITENS = [
   { id: "painel-tv", nome: "Painel de TV", preco: 95, disponivelEm: null, loja: "https://m.magazineluiza.com.br/painel-tv-sala-ate-43-polegadas-summer-varias-cores-mjm-casa-dos-moveis-jm-casa-dos-moveis/p/abak6hb08j/mo/mopa/", obs: "Levando junto com a TV, damos desconto." },
   { id: "ventilador", nome: "Ventilador (quebrado)", preco: 80, disponivelEm: null },
   { id: "chuveiro", nome: "Chuveiro Lorenzetti Ultra + chuveirinho antigo", preco: 60, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lorenzetti-loren-shower-ultra-eletronico/p/MLB19590091" },
-  { id: "tampas-vaso", nome: "Tampas de vaso com freio (2 unidades)", preco: 45, disponivelEm: null },
+  { id: "tampas-vaso", nome: "Conjunto de 2 tampas de vaso com freio", obs: "Preço pelas duas.", preco: 145, disponivelEm: null },
 ];
