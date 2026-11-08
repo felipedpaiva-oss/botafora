@@ -67,7 +67,7 @@ window.ITENS = [
   { id: "armario-cozinha", nome: "Armário de cozinha (feito por nós)", preco: 95, disponivelEm: null },
   { id: "armario-prateleiras", nome: "Armário de prateleiras da cozinha", preco: 95, disponivelEm: "2026-12-18" },
   { id: "mesa-retratil", nome: "Mesa retrátil com ferragens (2 unidades)", preco: 95, disponivelEm: null },
-  { id: "mesinhas-cabeceira", nome: "Conjunto de 2 mesinhas de cabeceira", preco: 95, disponivelEm: null,
+  { id: "mesinhas-cabeceira", status: "vendido", nome: "Conjunto de 2 mesinhas de cabeceira", preco: 95, disponivelEm: null,
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.mp4"].map(f => "midia/mesinhas-cabeceira/" + f),
     obs: "Preço pelas duas. Em ótimo estado de conservação, sem defeitos aparentes.\nCada uma tem uma gaveta e um nicho aberto. Tampo amadeirado, corpo branco e pés de madeira.\nMedidas: 53 cm (A) × 33,5 cm (L) × 33,5 cm (P).\nTemos a NF." },
   { id: "painel-tv", nome: "Painel de TV", preco: 95, disponivelEm: null, loja: "https://m.magazineluiza.com.br/painel-tv-sala-ate-43-polegadas-summer-varias-cores-mjm-casa-dos-moveis-jm-casa-dos-moveis/p/abak6hb08j/mo/mopa/", obs: "Levando junto com a TV, damos desconto." },
