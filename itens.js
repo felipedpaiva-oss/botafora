@@ -30,7 +30,8 @@ const fotos = (id, n, ext = "jpg") =>
 window.ITENS = [
   { id: "lava-roupa", nome: "Lava e seca", preco: 1590, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-e-seca-philco-eco-inverter-11kg-titanio-pls11c-127v/up/MLBU2788848558" },
   { id: "carrinho-doona", nome: "Carrinho Doona", preco: 1390, disponivelEm: null },
-  { id: "cama-casal", nome: "Cama de casal + colchão", preco: 1100, disponivelEm: null, midia: fotos("cama-casal", 6) },
+  { id: "cama-casal", nome: "Cama de casal + colchão", preco: 1100, disponivelEm: null, midia: fotos("cama-casal", 6),
+    obs: "Box baú com pistões a gás: a tampa levanta fácil e embaixo tem bastante espaço para guardar coisas.\nColchão Nature de espuma, bem conservado: sem manchas e sem partes afundadas." },
   { id: "lava-louca", nome: "Lava-louças", preco: 1090, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-loucas-brastemp-8-servicos-inox-blf08bs/p/MLB19628776" },
   { id: "cadeiras-4x", nome: "Cadeiras (4 unidades)", preco: 750, disponivelEm: "2026-11-11", loja: "https://m.magazineluiza.com.br/conjunto-com-4-cadeiras-de-madeira-macica-estofada-drop-cinamomo-c-linho-off-white-cobre-homedock/p/ch28hkb334/mo/ms4j/" },
   { id: "carrinho-kinderkraft", nome: "Carrinho Kinderkraft Vesto", preco: 690, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0919L93QC" },
