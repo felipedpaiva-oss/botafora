@@ -35,7 +35,7 @@ window.ITENS = [
   { id: "carrinho-doona", nome: "Carrinho Doona", preco: 1990, disponivelEm: null, obs: "Comprado na França e trazido ao Brasil." },
   { id: "cama-casal", nome: "Cama de casal box baú + colchão (138 × 188 cm)", preco: 1100, disponivelEm: null, midia: fotos("cama-casal", 6),
     obs: "Box baú inteiriço Weed, bege, 138 × 188 × 40 cm, com pistões a gás: a tampa levanta fácil e embaixo tem bastante espaço para guardar coisas.\nColchão Celeste D33 Pillow Pastel, de espuma, 138 × 188 × 24 cm. Bem conservado: sem manchas e sem partes afundadas.\nTemos a NF." },
-  { id: "lava-louca", nome: "Lava-louças Brastemp 8 serviços inox (BLF08BS)", preco: 1090, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-loucas-brastemp-8-servicos-inox-blf08bs/p/MLB19628776",
+  { id: "lava-louca", status: "vendido", nome: "Lava-louças Brastemp 8 serviços inox (BLF08BS)", preco: 1090, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-loucas-brastemp-8-servicos-inox-blf08bs/p/MLB19628776",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"].map(f => "midia/lava-louca/" + f),
     obs: "Tem um arranhão na porta, que aparece nas fotos.\nTemos o manual em PDF e a NF.\nMedidas: 51 cm (L) × 63 cm (P) × 63 a 70 cm (A, conforme a regulagem dos pés).",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-loucas-brastemp-blf08bs-manual.pdf" }] },
