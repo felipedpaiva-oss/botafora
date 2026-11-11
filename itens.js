@@ -52,7 +52,7 @@ window.ITENS = [
   { id: "mesa-redonda", nome: "Mesa Redonda 6 Lugares Tampo Vidro/MDF 135 cm Nuance - Yescasa (Castanho Cinamomo/Off White)", preco: 490, disponivelEm: null, loja: "https://m.magazineluiza.com.br/mesa-redonda-6-lugares-tampo-vidro-mdf-para-sala-de-jantar-135cm-nuance-yescasa-marrom-castanho-cinamomo-off-white/p/ga94hg9kb6/mo/momj/",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg"].map(f => "midia/mesa-redonda/" + f),
     obs: "Em ótimo estado, sem defeitos aparentes.\nTampo off white com vidro e base castanho cinamomo. Para 6 lugares.\nMedidas: 135 cm de diâmetro × 80 cm de altura.\nTemos a NF." },
-  { id: "pratos-xicaras", nome: "Conjunto de pratos e xícaras", preco: 445, disponivelEm: "2026-12-18", loja: "https://m.magazineluiza.com.br/jogo-de-jantar-30-pecas-ryo-maresia-oxford/p/ca9828abc3/ud/apja/" },
+  { id: "pratos-xicaras", status: "vendido", nome: "Conjunto de pratos e xícaras", preco: 445, disponivelEm: "2026-12-18", loja: "https://m.magazineluiza.com.br/jogo-de-jantar-30-pecas-ryo-maresia-oxford/p/ca9828abc3/ud/apja/" },
   { id: "cama-infantil", nome: "Cama infantil", preco: 345, disponivelEm: null, loja: "https://m.magazineluiza.com.br/cama-infantil-bicama-branco-completa-moveis/p/eg6j25h74c/mo/cams/" },
   { id: "microondas", status: "reservado", nome: "Micro-ondas Consul 20 litros espelhado (CM020BF)", preco: 295, disponivelEm: "2026-12-18", loja: "https://produto.mercadolivre.com.br/MLB-4392506584-micro-ondas-consul-20-litros-cm020bf-funco-descongelar-e-_JM",
     midia: ["01.jpg", "02.mp4", "03.jpg"].map(f => "midia/microondas/" + f),
