@@ -44,7 +44,7 @@ window.ITENS = [
     obs: "Tem um arranhão na porta, que aparece nas fotos.\nTemos o manual em PDF e a NF.\nMedidas: 51 cm (L) × 63 cm (P) × 63 a 70 cm (A, conforme a regulagem dos pés).",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-loucas-brastemp-blf08bs-manual.pdf" }] },
   { id: "carrinho-cabine", nome: "Carrinho de passeio compacto Cybex Libelle SLV Dark Blue (bleu marine)", preco: 1290, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0CVN4SWX6",
-    midia: fotos("carrinho-cabine", 25),
+    midia: (f => [f[0], f[17], ...f.slice(1, 17), ...f.slice(18)])(fotos("carrinho-cabine", 25)),
     destaque: "Dobrado, fica com 32 × 20 × 48 cm: cabe como bagagem de mão no avião.",
     obs: "Comprado na França e trazido ao Brasil.\nEm bom estado.\nAcompanham a mochila de transporte e a capa de chuva, que compramos à parte (não vêm com o carrinho original).\nPeso: 5,9 kg. Aberto: 71 × 52 × 102 cm.\nPara crianças de 6 meses a cerca de 4 anos, até 22 kg. Cinto de 5 pontos com ajuste de uma mão só, encosto reclinável e freio." },
   { id: "sofa", status: "vendido", nome: "Sofá Retrátil e Reclinável Verona 2,00 m Suede Velut Tabaco - King House", preco: 690, disponivelEm: null, loja: "https://m.magazineluiza.com.br/sofa-retratil-reclinavel-verona-200m-suede-velut-tabaco-c-molas-no-assento-king-house/p/jafja78g8k/mo/msof/",
