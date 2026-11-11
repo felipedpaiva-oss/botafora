@@ -31,7 +31,7 @@ window.ITENS = [
   { id: "uniformes-coleguium", nome: "Pacote de uniformes Coleguium (22 peças, tamanhos 1 a 4)", preco: 450, disponivelEm: null,
     midia: fotos("uniformes-coleguium", 9),
     destaque: "Preço pelo pacote completo, com 22 peças.",
-    obs: "3 moletons, em ótimo estado: 2 tamanho 2 e 1 tamanho 1.\n6 calças e shorts-saia, em bom estado: 2 shorts-saia tamanho 4, 1 calça tamanho 4, 1 short-saia tamanho 2, 1 calça legging tamanho 2 e 1 short (calça cortada) tamanho 1.\n3 polos tamanho 2, em excelente estado.\n10 blusas tamanho 2, em estados variados, várias com manchas: 6 blusas, 3 de manga longa e 1 sem manga." },
+    obs: "Incluído no pacote:\n3 Moletons em ótimo estado:\n- 2 moletom tamanho 2\n- 1 moletom tamanho 1\n\n6 calças e shorts saias em bom estado\n- 2 shorts sais tamanho 4\n- 1 calça tamanho 4\n- 1 Short saia tamanho 2\n- 1 Calça legging tamanho 2\n- 1 short (calça cortada) tamanho 1\n\nPolos em excelente estado\n- 3 polos tamanho 2\n\n10 blusas em diferentes estados, incluindo várias com manchas\n- 6 blusas tamanho 2\n- 3 blusas de manga longa tamanho 2\n- 1 blusa sem manga tamanho 2" },
   { id: "lava-roupa", status: "vendido", nome: "Lava e seca Philco Eco Inverter PLS11C (lava 11 kg / seca 7 kg)", preco: 1590, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lava-e-seca-philco-eco-inverter-11kg-titanio-pls11c-127v/up/MLBU2788848558",
     midia: (f => [f[0], "midia/lava-roupa/10.mp4", ...f.slice(1)])(fotos("lava-roupa", 9)),
     obs: "Em ótimo estado. Nenhum defeito.\nAinda temos o manual em PDF, a NF e os parafusos de transporte.\nMedidas: 59,5 cm (L) × 62,5 cm (P) × 85 cm (A).",
