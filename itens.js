@@ -50,10 +50,6 @@ window.ITENS = [
     obs: "Em ótimo estado, sem defeito aparente.\n4 bocas (1 grande e 3 médias), mesa de inox, acendimento automático, forno de 58 litros com porta de vidro temperado e tampa de vidro temperado. Bivolt.\nMedidas: 51,8 cm (L) × 96 cm (A) × 60,3 cm (P). Peso: 23,5 kg.\nTemos a NF.",
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"].map(f => "midia/fogao/" + f) },
   { id: "mesa-cadeiras", nome: "Conjunto de jantar: mesa redonda 135 cm Nuance + 4 cadeiras estofadas Drop", preco: 1790, disponivelEm: null,
-    loja: [
-      { rotulo: "Ver mesa nova", url: "https://m.magazineluiza.com.br/mesa-redonda-6-lugares-tampo-vidro-mdf-para-sala-de-jantar-135cm-nuance-yescasa-marrom-castanho-cinamomo-off-white/p/ga94hg9kb6/mo/momj/" },
-      { rotulo: "Ver cadeiras novas", url: "https://m.magazineluiza.com.br/conjunto-com-4-cadeiras-de-madeira-macica-estofada-drop-cinamomo-c-linho-off-white-cobre-homedock/p/ch28hkb334/mo/ms4j/" },
-    ],
     midia: [
       ...["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg"].map(f => "midia/mesa-cadeiras/" + f),
       ...["01.jpg", "02.mp4", "03.jpg", "04.jpg"].map(f => "midia/mesa-redonda/" + f),
