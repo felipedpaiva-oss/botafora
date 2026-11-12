@@ -36,7 +36,7 @@ window.ITENS = [
     midia: (f => [f[0], "midia/lava-roupa/10.mp4", ...f.slice(1)])(fotos("lava-roupa", 9)),
     obs: "Em ótimo estado. Nenhum defeito.\nAinda temos o manual em PDF, a NF e os parafusos de transporte.\nMedidas: 59,5 cm (L) × 62,5 cm (P) × 85 cm (A).",
     documentos: [{ nome: "Manual de instruções", arquivo: "documentos/lava-e-seca-philco-manual.pdf" }] },
-  { id: "carrinho-doona", nome: "Carrinho Doona", preco: 1990, disponivelEm: null, obs: "Comprado na França e trazido ao Brasil." },
+  { id: "carrinho-doona", nome: "Carrinho Doona", preco: 1990, disponivelEm: null, obs: "Comprado na França e trazido ao Brasil.\nAcompanha a base ISOFIX.\nEm bom estado, com uma mancha no tecido." },
   { id: "carrinho-kinderkraft", nome: "Carrinho de bebê Kinderkraft Vesto, cinza", preco: 690, disponivelEm: null, loja: "https://www.amazon.fr/dp/B0919L93QC",
     midia: fotos("carrinho-kinderkraft", 12),
     destaque: "Do nascimento até 15 kg, com assento reversível: de frente ou de costas para a rua.",
