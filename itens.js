@@ -83,5 +83,8 @@ window.ITENS = [
   { id: "painel-tv", nome: "Painel de TV", preco: 95, disponivelEm: null, loja: "https://m.magazineluiza.com.br/painel-tv-sala-ate-43-polegadas-summer-varias-cores-mjm-casa-dos-moveis-jm-casa-dos-moveis/p/abak6hb08j/mo/mopa/", obs: "Levando junto com a TV, damos desconto." },
   { id: "ventilador", status: "vendido", nome: "Ventilador Britânia BVT350 (quebrado)", preco: 70, disponivelEm: null },
   { id: "chuveiro", nome: "Chuveiro Lorenzetti Ultra + chuveirinho antigo", preco: 60, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lorenzetti-loren-shower-ultra-eletronico/p/MLB19590091" },
-  { id: "tampas-vaso", nome: "Conjunto de 2 tampas de vaso com freio", obs: "Preço pelas duas.", preco: 145, disponivelEm: null },
+  { id: "tampas-vaso", nome: "Conjunto de 2 assentos sanitários Tigre Soft Close (oval, branco)", preco: 145, disponivelEm: null,
+    midia: fotos("tampas-vaso", 7),
+    destaque: "Fechamento suave (soft close): a tampa desce devagar, sem bater no vaso.",
+    obs: "Conjunto com 2 assentos sanitários Tigre Soft Close, ovais, brancos. Preço pelas duas.\nFácil remoção: saem por completo pelos botões na base, para lavar no tanque.\nCompatível com vaso oval (universal). Medidas: 40,5 cm (L) × 36 cm (A). Fixadores ajustáveis com parafusos de inox e nylon.\nEm bom estado, com poucos arranhões. Uma das tampinhas de acabamento da fixação está quase soltando, como aparece nas fotos.\nEntregues limpos, como nas fotos, com cheirinho de produto de limpeza.\nTemos a NF." },
 ];
