@@ -84,9 +84,11 @@ window.ITENS = [
     midia: fotos("painel-tv", 6),
     obs: "TV E SUPORTE DE TV NÃO INCLUSOS. O suporte preto que aparece preso no painel é da TV e não acompanha a venda.\nEm ótimo estado.\nPainel Summer (modelo 5119) da MJM Casa dos Móveis, para TV de até 43\", em MDP/MDF off white e nature com pintura UV. Tem prateleira e furação para passar os cabos.\nMedidas: 1,09 m (L) × 90 cm (A) × 21 cm (P).\nA TV da foto é só ilustrativa e tem 43 polegadas, para dar ideia do tamanho.\nTemos a NF." },
   { id: "ventilador", status: "vendido", nome: "Ventilador Britânia BVT350 (quebrado)", preco: 70, disponivelEm: null },
-  { id: "chuveiro", nome: "Chuveiro Lorenzetti Ultra + chuveirinho antigo", preco: 60, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lorenzetti-loren-shower-ultra-eletronico/p/MLB19590091" },
+  { id: "chuveiro", nome: "Chuveiro eletrônico Lorenzetti Loren Shower Ultra + chuveirinho antigo", preco: 60, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lorenzetti-loren-shower-ultra-eletronico/p/MLB19590091",
+    midia: fotos("chuveiro", 3),
+    obs: "Em excelente estado, comprado em março/2026.\nChuveiro eletrônico Lorenzetti Loren Shower Ultra, com controle de temperatura pela alavanca. Acompanha também um chuveirinho antigo.\nEstamos vendendo pois mudaremos para outra cidade." },
   { id: "tampas-vaso", nome: "Conjunto de 2 assentos sanitários Tigre Soft Close (oval, branco)", preco: 145, disponivelEm: null,
     midia: fotos("tampas-vaso", 7),
     destaque: "Fechamento suave (soft close): a tampa desce devagar, sem bater no vaso.",
-    obs: "Conjunto com 2 assentos sanitários Tigre Soft Close, ovais, brancos. Preço pelas duas.\nFácil remoção: saem por completo pelos botões na base, para lavar no tanque.\nCompatível com vaso oval (universal). Medidas: 40,5 cm (L) × 36 cm (A). Fixadores ajustáveis com parafusos de inox e nylon.\nEm bom estado, com poucos arranhões. Uma das tampinhas de acabamento da fixação está quase soltando, como aparece nas fotos.\nEntregues limpos, como nas fotos, com cheirinho de produto de limpeza.\nTemos a NF." },
+    obs: "Conjunto com 2 assentos sanitários Tigre Soft Close, ovais, brancos. Preço pelas duas.\nFácil remoção: saem por completo pelos botões na base, para lavar no tanque.\nCompatível com vaso oval (universal). Medidas: 40,5 cm (L) × 36 cm (A). Fixadores ajustáveis com parafusos de inox e nylon.\nEm bom estado, com poucos arranhões. Uma das tampinhas de acabamento da fixação está quase soltando, como aparece nas fotos.\nEntregues limpos, como nas fotos, com cheirinho de produto de limpeza.\nTemos a NF.\nEstamos vendendo pois mudaremos para outra cidade." },
 ];
