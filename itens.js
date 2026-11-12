@@ -81,7 +81,7 @@ window.ITENS = [
     midia: ["01.jpg", "02.mp4", "03.jpg", "04.jpg", "05.jpg", "06.mp4"].map(f => "midia/mesinhas-cabeceira/" + f),
     obs: "Preço pelas duas. Em ótimo estado de conservação, sem defeitos aparentes.\nCada uma tem uma gaveta e um nicho aberto. Tampo amadeirado, corpo branco e pés de madeira.\nMedidas: 53 cm (A) × 33,5 cm (L) × 33,5 cm (P).\nTemos a NF." },
   { id: "painel-tv", nome: "Painel de TV", preco: 95, disponivelEm: null, loja: "https://m.magazineluiza.com.br/painel-tv-sala-ate-43-polegadas-summer-varias-cores-mjm-casa-dos-moveis-jm-casa-dos-moveis/p/abak6hb08j/mo/mopa/", obs: "Levando junto com a TV, damos desconto." },
-  { id: "ventilador", status: "vendido", nome: "Ventilador Britânia BVT350 (quebrado)", preco: 50, disponivelEm: null },
+  { id: "ventilador", status: "vendido", nome: "Ventilador Britânia BVT350 (quebrado)", preco: 70, disponivelEm: null },
   { id: "chuveiro", nome: "Chuveiro Lorenzetti Ultra + chuveirinho antigo", preco: 60, disponivelEm: "2026-12-18", loja: "https://www.mercadolivre.com.br/lorenzetti-loren-shower-ultra-eletronico/p/MLB19590091" },
   { id: "tampas-vaso", nome: "Conjunto de 2 tampas de vaso com freio", obs: "Preço pelas duas.", preco: 145, disponivelEm: null },
 ];
