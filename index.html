@@ -109,6 +109,12 @@ h2 { font-family: var(--f-display); font-weight: 600; font-size: 21px; line-heig
 .btn-wa { background: var(--wa); color: #fff; }
 .btn-wa:hover { filter: brightness(1.06); }
 .btn-wa[aria-disabled="true"] { background: var(--off-bg); color: var(--off-ink); pointer-events: none; }
+.vendidos { margin: -16px 0 40px; }
+.vendidos summary { cursor: pointer; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--muted); padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); list-style: none; }
+.vendidos summary::-webkit-details-marker { display: none; }
+.vendidos summary::after { content: "▾"; font-size: 12px; }
+.vendidos[open] summary::after { content: "▴"; }
+.vendidos .grid { padding-top: 16px; }
 .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 0; }
 
 footer { border-top: 1px solid var(--line); padding-block: 24px 40px; color: var(--muted); font-size: 15px; display: grid; gap: 8px; }
@@ -168,6 +174,10 @@ dialog.lb::backdrop { background: #000; }
 <main class="wrap">
   <p class="count" id="count" aria-live="polite"></p>
   <section class="grid" id="grid"></section>
+  <details class="vendidos" id="vendidos" hidden>
+    <summary>Ver itens já vendidos</summary>
+    <section class="grid" id="grid-vendidos"></section>
+  </details>
 </main>
 
 <footer class="wrap">
@@ -321,11 +331,15 @@ function render() {
   }[ordem];
   const lista = ITENS.filter(it => filtro === "todos" || (filtro === "agora" ? livre(it) : it.disponivelEm === filtro))
     .sort((a, b) => peso(a) - peso(b) || semFoto(a) - semFoto(b) || cmp(a, b));
-  const disp = lista.filter(i => (i.status || "disponivel") === "disponivel").length;
-  document.getElementById("count").textContent = `${lista.length} ${lista.length === 1 ? "item" : "itens"} · ${disp} disponíveis para reserva`;
+  const ativos = lista.filter(i => i.status !== "vendido");
+  const vendidos = lista.filter(i => i.status === "vendido");
+  document.getElementById("count").textContent = `${ativos.length} ${ativos.length === 1 ? "item à venda" : "itens à venda"}`;
   const grid = document.getElementById("grid");
-  grid.innerHTML = lista.length ? lista.map(card).join("") : `<p class="empty">Nenhum item neste filtro.</p>`;
-  grid.querySelectorAll(".card").forEach(c => {
+  grid.innerHTML = ativos.length ? ativos.map(card).join("") : `<p class="empty">Nenhum item neste filtro.</p>`;
+  const det = document.getElementById("vendidos");
+  det.hidden = !vendidos.length;
+  document.getElementById("grid-vendidos").innerHTML = vendidos.map(card).join("");
+  document.querySelectorAll("#grid .card, #grid-vendidos .card").forEach(c => {
     ligarCarrossel(c);
     const it = ITENS.find(x => x.id === c.dataset.id);
     c.querySelectorAll(".slide").forEach(sl => sl.addEventListener("click", () => abrir(it, +sl.dataset.i)));
@@ -338,7 +352,10 @@ document.getElementById("ref").textContent = CONFIG.referencia;
 const wa = document.getElementById("wa-geral");
 wa.href = waLink("Oi! Vi o bota-fora e tenho uma dúvida."); wa.textContent = CONFIG.whatsappTexto;
 render();
-if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+if (location.hash) {
+  const alvo = document.getElementById(location.hash.slice(1));
+  if (alvo) { const d = alvo.closest("details"); if (d) d.open = true; alvo.scrollIntoView(); }
+}
 </script>
 </body>
 </html>
