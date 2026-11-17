@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Felipe Paiva - Currículo</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Unna:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#3b8de0;--hl:#e3f1fc;--txt:#5a5a5a;--ink:#111;--line:#e3f1fc}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff}
+body{font-family:Lato,sans-serif;color:var(--txt);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden}
+.hero{position:absolute;inset:0 0 auto 0;height:59mm;background:url(header.png) center/cover;clip-path:polygon(0 0,100% 0,100% 84%,50% 100%,0 84%)}
+.name{position:absolute;top:9.5mm;right:126.5mm;text-align:right;color:#fff}
+.name h1{font-family:Unna;font-weight:700;font-size:27pt;margin:0;line-height:1.05;letter-spacing:.2px}
+.name p{margin:2.2mm 0 0;font-size:10.6pt;line-height:1.5}
+.photo{position:absolute;top:7.6mm;left:85.5mm;width:39mm;height:39mm;border-radius:50%;border:2mm solid #fff;background:url(photo.png) center/cover;box-shadow:0 0 0 .2mm rgba(0,0,0,.05)}
+.contact{position:absolute;top:11.2mm;left:132.6mm;color:#fff;font-size:9.4pt;line-height:1.86}
+.divider{position:absolute;left:104.8mm;top:66.5mm;height:193mm;width:.7mm;background:var(--line)}
+.col{position:absolute;top:68.5mm}
+.left{right:113.8mm;width:84mm;text-align:right}
+.right{left:113.5mm;width:88mm}
+h2{display:inline-block;position:relative;font-family:Unna;font-weight:700;color:var(--blue);font-size:13pt;margin:0 0 6.5mm;z-index:0}
+h2::after{content:"";position:absolute;z-index:-1;left:3.5mm;right:-3.5mm;bottom:-1.1mm;height:4.6mm;background:var(--hl)}
+.left h2::after{left:3.5mm;right:-3.5mm}
+.item{margin-bottom:6.6mm}
+.date{font-size:8pt;color:#555;margin-bottom:1.6mm}
+.title{font-family:Unna;font-size:13.2pt;color:var(--ink);line-height:1.3}
+.org{font-weight:700;color:var(--blue);font-size:10.4pt;margin-top:1.3mm}
+.desc{font-size:9.6pt;line-height:1.55;margin-top:1.5mm}
+ul{margin:1.6mm 0 0;padding:0;list-style:none}
+li{font-size:9.6pt;line-height:1.55;position:relative;padding-left:12mm;margin-bottom:.15mm}
+li::before{content:"•";position:absolute;left:0;top:0;color:#888;font-size:9pt}
+.summary{font-size:9.6pt;line-height:1.62;margin:0 0 8.5mm}
+.skills p{font-size:9.6pt;margin:0 0 3.3mm}
+.langs{display:grid;grid-template-columns:47mm 37mm;row-gap:3.8mm;text-align:left;margin-top:1mm}
+.lang{display:flex;align-items:center;gap:2.6mm}
+.ring{--p:50;width:13.6mm;height:13.6mm;border-radius:50%;background:conic-gradient(var(--blue) calc(var(--p)*1%),#d6e8fa 0);display:grid;place-items:center;flex:none}
+.ring span{width:10.4mm;height:10.4mm;border-radius:50%;background:var(--hl);display:grid;place-items:center;color:var(--blue);font-size:11.5pt;border:.5mm solid #fff}
+.lang b{font-size:8.6pt;color:#111;display:block}
+.lang small{font-size:8pt;color:#777}
+.note{font-size:8pt;color:#777;margin:-5mm 0 3.5mm;font-style:italic}
+.item.alt{margin-bottom:3.6mm}
+.alt .title{font-size:11.5pt}
+.alt .desc{margin-top:.6mm}
+.langrow{display:flex;justify-content:flex-end;gap:2.6mm;text-align:center}
+.langrow>div{width:15.4mm;display:flex;flex-direction:column;align-items:center}
+.langrow b{font-size:8pt;color:#111;margin-top:1.4mm}
+.langrow small{font-size:7.4pt;color:#777}
+/* compact PT layout */
+.col{top:63mm}.divider{top:62mm;height:226mm}
+h2{margin-bottom:4.6mm}
+.item{margin-bottom:4.6mm}
+li,.desc,.summary,.skills p{font-size:9.1pt;line-height:1.48}
+.summary{margin-bottom:6mm}
+.title{font-size:12.4pt}
+.skills p{margin-bottom:2mm}
+.item.alt{margin-bottom:2.6mm}
+.alt .title{font-size:11pt}
+.note{margin:-3.6mm 0 2.6mm}
+.ring{width:11.4mm;height:11.4mm}.ring span{width:8.8mm;height:8.8mm;font-size:10pt}
+.langrow>div{width:14mm}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hero"></div>
+  <div class="name">
+    <h1>Felipe Paiva</h1>
+    <p>Guia de Montanha · IML<br>Especialista em viagens · Empreendedor</p>
+  </div>
+  <div class="photo"></div>
+  <div class="contact">
+    +33 7 73 32 64 50<br>
+    Brasil / Itália (cidadania UE)<br>
+    felipedpaiva@gmail.com<br>
+    linkedin.com/in/felipe-paiva-99443524
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="col left">
+    <h2>Experiência profissional</h2>
+    <div class="item">
+      <div class="date">2021 - atual</div>
+      <div class="title">International Mountain Leader</div>
+      <div class="org">Autônomo</div>
+      <ul>
+        <li>Condução de trekkings e caminhadas guiadas para agências francesas (Allibert, Grand Angle, Chemins du Sud)</li>
+        <li>Atuação em regiões como Dolomitas, Lagos italianos, Verdon, Cinque Terre, Parque Nacional da Vanoise, Alpes bávaros e Açores</li>
+        <li>Segurança dos clientes, experiências personalizadas e interpretação ambiental</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="date">2012 - 2019</div>
+      <div class="title">Analista Sênior de Finanças e Marketing</div>
+      <div class="org">Monterre Construtora</div>
+      <ul>
+        <li>Plano de incentivo fiscal que aumentou em 10% a margem dos empreendimentos</li>
+        <li>Liderança de equipe de 7 pessoas em finanças e marketing</li>
+        <li>Implantação de ERP e relação com investidores</li>
+      </ul>
+    </div>
+
+    <h2 style="margin-top:1mm">Experiência em altitude</h2>
+    <div class="note">Como trekker</div>
+    <div class="item alt">
+      <div class="title">Himalaia, Nepal · 70 dias</div>
+      <div class="desc">Campo Base do Everest (~5.500 m), Circuito completo dos Annapurnas (~5.500 m), Annapurna Base Camp (4.100 m), entre outros</div>
+    </div>
+    <div class="item alt">
+      <div class="title">Bolívia</div>
+      <div class="desc">Chacaltaya (5.400 m)</div>
+    </div>
+    <div class="item alt">
+      <div class="title">Peru</div>
+      <div class="desc">Trilha Inca (4.200 m)</div>
+    </div>
+
+    <h2 style="margin-top:1mm">Idiomas</h2>
+    <div class="langrow">
+      <div><div class="ring" style="--p:100"><span>10</span></div><b>Português</b><small>Nativo</small></div>
+      <div><div class="ring" style="--p:90"><span>9</span></div><b>Francês</b></div>
+      <div><div class="ring" style="--p:80"><span>8</span></div><b>Inglês</b></div>
+      <div><div class="ring" style="--p:60"><span>6</span></div><b>Italiano</b></div>
+      <div><div class="ring" style="--p:50"><span>5</span></div><b>Espanhol</b></div>
+    </div>
+  </div>
+
+  <div class="col right">
+    <h2>Resumo</h2>
+    <p class="summary">Guia de montanha com certificação International Mountain Leader, unindo experiência em turismo de aventura e visão de negócios. Multilíngue (português, francês, italiano, inglês e espanhol), com mais de 10 anos de experiência profissional na Europa e na América do Sul. Conduzo e desenho viagens na natureza e contribuo para a excelência operacional em projetos de turismo. Perfil empreendedor, pensamento estratégico e profundo respeito por culturas e ecossistemas.</p>
+
+    <h2>Formação</h2>
+    <div class="item">
+      <div class="date">2025</div>
+      <div class="title">Wilderness Advanced First Aid (WAFA)</div>
+      <div class="desc">Primeiros socorros avançados em áreas remotas · março de 2025</div>
+    </div>
+    <div class="item">
+      <div class="date">2022 - 2024</div>
+      <div class="title">International Mountain Leader</div>
+      <div class="org">CNSNMM - França</div>
+      <div class="desc">Diplôme d'Etat d'Alpinisme - Accompagnateur en moyenne montagne</div>
+    </div>
+    <div class="item">
+      <div class="date">2013 - 2014</div>
+      <div class="title">Pós-graduação em Finanças e Gestão de Negócios</div>
+      <div class="org">Fundação Dom Cabral</div>
+    </div>
+    <div class="item">
+      <div class="date">2008 - 2012</div>
+      <div class="title">Bacharelado em Ciências Econômicas</div>
+      <div class="org">UFMG</div>
+    </div>
+
+    <h2>Ferramentas e competências</h2>
+    <div class="skills">
+      <p>Google Suite, Excel, VBA</p>
+      <p>Planejamento de rotas, logística, orçamento, atendimento ao cliente</p>
+      <p>Paixão por cartografia, cultura local e biodiversidade</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
