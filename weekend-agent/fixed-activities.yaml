@@ -86,3 +86,45 @@
     (Memorial Minas Gerais Vale, Museu das Minas e do Metal) para esticar o
     passeio se o clima ajudar.
   fonte: https://www.ufmg.br/procult/espacos-de-cultura/espaco-do-conhecimento-ufmg/
+
+# Locais cuja programação muda toda semana (exposições e espetáculos
+# temporários) — pedido explícito do usuário em 2026-11-22: além da busca
+# geral, o agente deve SEMPRE checar a agenda atual destes quatro lugares,
+# porque a busca genérica às vezes não traz o cartaz deles (foi assim que
+# descobrimos "Viva Mauricio" e "Eu e Meu Monstro" no CCBB só depois de
+# procurar o museu diretamente).
+verificar_programacao_semanalmente:
+  - nome: CCBB Belo Horizonte (Centro Cultural Banco do Brasil)
+    endereco: "Praça da Liberdade, 450, Funcionários, Belo Horizonte"
+    horario_base: >
+      Varia por exposição/espetáculo em cartaz — geralmente entre 9h/10h e
+      20h/21h, confirmar na programação da semana.
+    observacao: >
+      Costuma ter teatro infantil e exposições temporárias de peso (ex:
+      "Viva Mauricio", "Eu e Meu Monstro") — verificar cartaz, preço e
+      classificação indicativa de cada atração.
+    fonte: https://ccbb.com.br/belo-horizonte/programacao/
+
+  - nome: Museu Histórico Abílio Barreto (MHAB)
+    endereco: "Av. Prudente de Morais, 202, Cidade Jardim, Belo Horizonte"
+    horario_base: >
+      Varia por dia da semana (fontes mencionam ter/sex/sáb/dom 10h-17h e
+      qua/qui 10h-18h30) — confirmar antes de ir.
+    preco: Gratuito
+    observacao: >
+      Conta a história de Belo Horizonte desde 1943 — costuma ter oficinas
+      temáticas pontuais (ex: Mês da Consciência Negra) que não aparecem
+      em buscas genéricas; verificar a agenda do mês.
+    fonte: https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab
+
+  - nome: Museu de Ciências Naturais da PUC Minas
+    observacao: >
+      Mesmo museu já listado na tabela fixa acima — não encontramos um
+      "museu arqueológico" separado da PUC Minas, então tratamos como o
+      mesmo local. Verificar também sua agenda de exposições/oficinas
+      temporárias, além do horário fixo de sábado.
+
+  - nome: Espaço do Conhecimento UFMG
+    observacao: >
+      Mesmo espaço já listado na tabela fixa acima. Verificar também sua
+      agenda de exposições/oficinas temporárias, além do horário fixo.
