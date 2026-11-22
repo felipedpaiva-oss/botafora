@@ -88,11 +88,11 @@
   fonte: https://www.ufmg.br/procult/espacos-de-cultura/espaco-do-conhecimento-ufmg/
 
 # Locais cuja programação muda toda semana (exposições e espetáculos
-# temporários) — pedido explícito do usuário em 2026-11-22: além da busca
-# geral, o agente deve SEMPRE checar a agenda atual destes quatro lugares,
-# porque a busca genérica às vezes não traz o cartaz deles (foi assim que
-# descobrimos "Viva Mauricio" e "Eu e Meu Monstro" no CCBB só depois de
-# procurar o museu diretamente).
+# temporários) — pedido explícito do usuário em 2026-11-22 (ampliado em
+# 2026-11-22 com o Parque do Palácio): além da busca geral, o agente deve
+# SEMPRE checar a agenda atual destes lugares, porque a busca genérica às
+# vezes não traz o cartaz deles (foi assim que descobrimos "Viva Mauricio"
+# e "Eu e Meu Monstro" no CCBB só depois de procurar o museu diretamente).
 verificar_programacao_semanalmente:
   - nome: CCBB Belo Horizonte (Centro Cultural Banco do Brasil)
     endereco: "Praça da Liberdade, 450, Funcionários, Belo Horizonte"
@@ -128,3 +128,17 @@ verificar_programacao_semanalmente:
     observacao: >
       Mesmo espaço já listado na tabela fixa acima. Verificar também sua
       agenda de exposições/oficinas temporárias, além do horário fixo.
+
+  - nome: Parque do Palácio (Mangabeiras)
+    endereco: "Rua Djalma Guimarães, 161, Mangabeiras, Belo Horizonte"
+    horario_base: >
+      Antiga residência oficial dos governadores de MG, aberta ao público
+      desde 2022. Jardins de Burle Marx, prédio de Niemeyer. Confirmar
+      horário de funcionamento da semana.
+    observacao: >
+      Não confundir com o Parque das Mangabeiras (item 1 da tabela fixa) —
+      são vizinhos, mas são locais diferentes. O Parque do Palácio costuma
+      ter exposições temporárias e oficinas (ex: oficinas de bebês da
+      newsletter Na Pracinha, exposição de carros ítalo-brasileiros) além
+      de bares/cafeteria/restaurantes e vista para a Serra do Curral.
+    fonte: https://portalbelohorizonte.com.br/o-que-fazer/ao-ar-livre-e-esportes/parque/parque-do-palacio-palacio-das-mangabeiras

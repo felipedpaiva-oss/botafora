@@ -15,14 +15,15 @@ pontuais (peças, feiras, shows, exposições temporárias, eventos ao ar livre)
    combinam com o perfil da família. Editar/adicionar linhas aqui conforme
    forem descobrindo novos lugares fixos. Tem também a lista
    `verificar_programacao_semanalmente` — locais (CCBB, Museu Histórico
-   Abílio Barreto, Museu de Ciências Naturais da PUC Minas e Espaço do
-   Conhecimento UFMG) cuja agenda muda toda semana e que a Routine checa
-   diretamente, além da busca geral.
+   Abílio Barreto, Museu de Ciências Naturais da PUC Minas, Espaço do
+   Conhecimento UFMG e Parque do Palácio) cuja agenda muda toda semana e
+   que a Routine checa diretamente, além da busca geral.
 3. **Routine semanal (toda quarta-feira)** — uma tarefa agendada do Claude
    Code que, toda quarta: (a) procura newsletters de agenda cultural
    recebidas no Gmail nos últimos dias; (b) checa diretamente a programação
-   atual do CCBB, do MHAB, do Museu de Ciências Naturais da PUC Minas e do
-   Espaço do Conhecimento UFMG; (c) faz uma busca extensa na web por
+   atual do CCBB, do MHAB, do Museu de Ciências Naturais da PUC Minas, do
+   Espaço do Conhecimento UFMG e do Parque do Palácio; (c) faz uma busca
+   extensa na web por
    programação do fim de semana seguinte (shows, peças, feiras, exposições
    temporárias) em Belo Horizonte e cidades num raio de até 150km; (d)
    combina tudo com a tabela de atividades fixas. Ela filtra e organiza
